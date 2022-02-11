@@ -1,0 +1,74 @@
+h1 {
+	width: 100%;
+	text-align: center;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+  
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+  
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+	
+.filters {
+	margin-bottom: 50px;
+	float: left;
+}
+
+.filters h2 {
+	margin-bottom: 5px;
+}
+
+form {
+	float: left;
+	margin-top: 5px;
+}
+
+.formRow {
+	float: left;
+	margin-right: 50px;
+}
+
+form span {
+	width: 200px;
+}
+
+.buttonRow {
+	float: left;
+}
+
+.filterButton {
+	border: none;
+	padding: 10px 20px;
+	background: #000000;
+	color: #ffffff;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.filterButton:focus {
+	outline: 0;
+}
+
+input {
+	height: 20px;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	width: 150px;
+}
+
+select {
+	height: 27px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background: none;
+	width: 150px;
+}
